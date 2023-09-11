@@ -128,6 +128,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS=[
 STATIC_DIR,
 ]
+#TO DISPLAY IMAGES IN CLOUDPAGE####################
+MEDIA_DIR=os.path.join(BASE_DIR,'media')
+MEDIA_ROOT=MEDIA_DIR
+MEDIA_URL='/media/'
 
 
 
